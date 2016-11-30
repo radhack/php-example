@@ -47,6 +47,10 @@ $request->addSignerRole('Role2');
 $request->addSignerRole('Role3');
 //$request->addCCRole('Test CC Role');
 $request->addMergeField('Test Merge', 'text');
+$request->addMergeField('Test Merge 1', 'text');
+$request->addMergeField('Test Merge 3', 'text');
+$request->addMergeField('Test Merge 4', 'text');
+$request->addMergeField('Test Merge 5', 'text');
 $request->addMergeField('Test Merge 2', 'checkbox');
 
 $response = $client->createEmbeddedDraft($request);
