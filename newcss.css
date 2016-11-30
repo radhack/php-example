@@ -19,6 +19,10 @@ Underscores is distributed under the terms of the GNU GPL v2 or later.
 Normalizing styles have been helped along thanks to the fine work of
 Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 */
+/*
+Edited by Alex Griffen for use with php-example
+TODO: clean up the unused portions - the site works but there's a lot of waste here
+*/
 
 html,
 body,
