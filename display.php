@@ -68,7 +68,7 @@
             /* Alex here - updated settings on 11/11/16 */
             $obj->host = '127.0.0.1';
             $obj->username = 'root';
-            $obj->password = 'Wh4tMAtters';
+            $obj->password = getenv('DB_PASSWORD') ? getenv('DB_PASSWORD') : '';
             $obj->table = 'sigantureRequestDB';
             $obj->connect();
 
